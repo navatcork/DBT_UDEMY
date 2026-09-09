@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: stg_transactions
+    description: This is a unique column
+    columns:
+      - name: hash
+        description: > 
+            This is a very long value
+            which has multi line statement.
+        data_tests:
+          - unique
+          - not_null
